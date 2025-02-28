@@ -1,0 +1,45 @@
+.box{
+    background-color:grey;
+    padding-bottom:100px;
+    padding-left: 100px;
+    border-color: greenyellow;
+    border-width:1px;
+    border-style : solid ;
+    width: 5px;
+}
+.box:hover {
+    background-color: green ;
+    border-color:red;
+}
+.bigbox{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+}
+.hi{
+    background-color:red;
+}
+.ho{
+    background-color:aqua;
+}
+.board{
+    display:grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3,100px);
+    gap: 4px
+}
+.something{
+    text-align: center;
+}
+/* .Goose {
+    margin-left:50px;
+    width: 200px;
+    height: 200px;
+    margin-right:40px
+}
+
+.goose {
+    width: 250px;
+    height: 250px;
+} */
