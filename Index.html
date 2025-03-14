@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-git initial-scale
-git status
 
 <html lang="en">
 <head>
@@ -9,10 +7,14 @@ git status
     <title>Tic Tac Toe</title>
     <link rel="stylesheet"href="./Styles/tictac.css">
 </head>
-<body>
-    <h1 class="something">
+<body background="color">
+    <h1 class="something" id="title">
         Welcome to the game!
     </h1>
+    <button onclick="document.getElementById('title').innerHTML='The Best Game In The World!'">
+    Click me
+    </button>
+    <button onclick="document.body.style.backgroundColor='black'"> Background Color</button>
     <div class="bigbox">
     <div class="board">
 
